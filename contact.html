@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author", content="Nari">
+    <meta name="description", content="Contact information for the N3K0 Coffee">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>Contact</title>
+    <link rel="icon", href="C:\Users\Dell\OneDrive\Hình ảnh\HTML Restaurant project\favicon.ico", type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+      <header class="header">
+        <h1 class="header__h1">N3K0 Coffee</h1>
+        <nav class="header__nav">
+          <ul class="header__ul">
+            <li>
+               <a href="Coffee.html">Home</a>
+            </li>
+            <li>
+               <a href="hours.html">Hours</a>
+            </li>
+            <li>
+               <a href="about.html">About</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero">
+        <figure>
+          <img src="C:\Users\Dell\OneDrive\Hình ảnh\HTML Restaurant project\Cat coffee.jpg", alt="An example picture", title="We love nekos"><p>Hinh minh hoa</p>
+        </figure>
+        <figcaption class="offscreen">
+          We love nekos
+        </figcaption>
+      </section>
+
+      <main class="main">
+        <article class="main__article">
+          <h2>Our Location</h2>
+          <address class="">
+            Seoul
+            <br>
+            Phone: <a href="+88888888">888-888-88</a>
+          </address>
+        </article>
+        <article class="main__article contact">
+        <h2 class="contact__h2">Our Contact Form</h2>
+        <form class="" action="http://httpbin.org/get" method="get" class="contact__form">
+          <fieldset class="contact__fieldset">
+            <legend class="offscreen">Send Us Message</legend>
+            <p class="contact__p">
+              <label class="contact__label" for="name">Name:</label>
+              <input class="contact__input" type="text" name="name" id="name" placeholder="Your Name" required>
+            </p>
+            <p class="contact__p">
+              <label class="contact__label" for="email">Email:</label>
+              <input class="contact__input" type="email" name="email" id="email" placeholder="Your Email" required>
+            </p>
+            <p class="contact__p">
+              <label class="contact__label" for="message">Your Message:</label>
+              <br>
+              <textarea class="contact__textarea" name="message" id="message" rows="8" cols="30" placeholder="Type your message here"></textarea>
+            </p>
+          </fieldset>
+          <button class="contact__button" type="submit">Send</button>
+          <button class="contact__button" type="reset">Reset</button>
+        </form>
+      </article>
+      </main>
+      <footer class="footer">
+        <p>
+          <span class="nowrap">Copyright &copy;</span>
+          <span class="nowrap">N3K0 Coffee</span>
+        </p>
+      </footer>
+  </body>
+</html>
